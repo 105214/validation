@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background:url("pexels-jess-vide-5232629.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   left:0;
+   right:0;
+   bottom: 0;
+   top: 0;
+   margin: auto;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#register-form{
+    border:1px solid #fff;
+    width: 600px;
+    height: 400px;
+    padding-top: 25px;
+    padding-left: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 2px 8px 8px #000;
+    
+}
+.form-label{
+    color:#fff;
+    font-size: 20px;
+}
+.form-control{
+  width:250px;
+}
+button.btn.btn-primary {
+    width: 200px;
+    font-size: 18px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+.error{
+    color:#ea8b2d;
+    font-size: 16px;
+    font-weight: bold;
+}
